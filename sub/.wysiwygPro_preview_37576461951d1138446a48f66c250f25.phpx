@@ -1,0 +1,10 @@
+<?php
+if ($_GET['randomId'] != "XBOkyeblD818mL1mzOdOMauGUpx0PZ1tvs8L9lWkmQkkrIKirR36XqK9Ykqv_ZQ1") {
+    echo "Access Denied";
+    exit();
+}
+
+// display the HTML code:
+echo stripslashes($_POST['wproPreviewHTML']);
+
+?>  

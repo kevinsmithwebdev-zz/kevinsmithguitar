@@ -1,0 +1,210 @@
+<html>
+<head>
+
+
+<style type="text/css">
+.save{
+   behavior:url(#default#savehistory);}
+a.dsphead{
+   text-decoration:none;
+   margin-left:1.5em;}
+a.dsphead:hover{
+   text-decoration:underline;}
+a.dsphead span.dspchar{
+   font-family:monospace;
+   font-weight:normal;}
+.dspcont{
+   display:none;
+   margin-left:1.5em;}
+</style>
+
+<script type="text/javascript">
+function dsp(loc){
+   if(document.getElementById){
+      var foc=loc.firstChild;
+      foc=loc.firstChild.innerHTML?
+         loc.firstChild:
+         loc.firstChild.nextSibling;
+      foc.innerHTML=foc.innerHTML=='+'?'-':'+';
+      foc=loc.parentNode.nextSibling.style?
+         loc.parentNode.nextSibling:
+         loc.parentNode.nextSibling.nextSibling;
+      foc.style.display=foc.style.display=='block'?'none':'block';}}  
+
+if(!document.getElementById)
+   document.write('<style type="text/css"><!--\n'+
+      '.dspcont{display:block;}\n'+
+      '//--></style>');
+//--></script>
+
+<noscript>
+<style type="text/css">
+.dspcont{display:block;}
+
+</style>
+</noscript>
+
+<LINK REL="SHORTCUT ICON" HREF="../img/favicon.ico">
+<title>Kevin Smith - Guitar - Playing</title>
+<LINK REL=StyleSheet HREF="../../style.css" TYPE="text/css" MEDIA=screen>
+</head>
+
+<body>
+
+<div id="page">
+	<div id="menulinks">
+		<a href="../../index.html">HOME</a>
+		<div class="menuline"></div>
+		<a href="javascript:javascript:history.go(-1)">Back</a>
+	        <div class="menuline"></div>
+	</div>
+
+	<div id="header">
+			<h1>KEVIN SMITH</h1>
+			<div class="description">- Bay Area guitarist and teacher.</div>
+	</div>
+
+	<div id="mainarea">
+	<div id="contentarea">
+        <br/><br/>
+
+
+<div class="save">
+
+
+
+
+
+<!-- *********** START ENTRY *********** -->
+<h2><a href="javascript:void(0)" class="dsphead"
+   onclick="dsp(this)">
+   <span class="dspchar">+</span> 
+
+<!-- HEADING -->
+heading
+
+</a></h2>
+   <div class="dspcont">
+
+<!-- CONTENT -->
+content
+
+
+</div>
+
+<!-- *********** END HEADING *********** -->
+
+
+
+
+<!-- *********** START ENTRY WITH SUBS*********** -->
+<h2><a href="javascript:void(0)" class="dsphead"
+   onclick="dsp(this)">
+   <span class="dspchar">+</span> 
+
+<!-- HEADING -->
+heading
+
+</a></h2>
+
+   <div class="dspcont">
+
+<!-- CONTENT before SUB HEADING-->
+content
+
+      <h3><a href="javascript:void(0)" class="dsphead"
+         onclick="dsp(this)">
+         <span class="dsphead">+</span>
+
+
+<!-- SUB HEADING -->
+sub heading
+
+</a></h3>
+         <div class="dspcont">
+
+<!-- SUB CONTENT -->
+content
+
+</div>
+
+      <h3><a href="javascript:void(0)" class="dsphead"
+         onclick="dsp(this)">
+         <span class="dspchar">+</span> 
+
+<!-- SUB HEADING -->
+sub heading
+
+</a></h3>
+         <div class="dspcont">
+
+<!-- SUB CONTENT -->
+content
+
+</div>
+   </div>
+</div>
+
+<!-- *********** END HEADING WITH SUBS*********** -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	</div>
+
+
+
+
+
+	<div id="sidebar">
+		<h2>Related FAQs</h2>
+        <br/>
+        <a HREF="FAQ.html">Other FAQ</a>
+	<br/><br/>
+        <a HREF="FAQ.html">Other FAQ</a>
+	<br/>
+
+
+		<h2>Related Pages</h2>
+        <br/>
+        <a HREF="PAGE.html">Other FAQ</a>
+	<br/><br/>
+        <a HREF="PAGE.html">Other FAQ</a>
+	<br/>
+
+
+		<h2>Related Outside Links</h2>
+        <br/>
+        <a HREF="LINK.html">Other FAQ</a>
+	<br/><br/>
+        <a HREF="LINK.html">Other FAQ</a>
+	<br/>
+
+	</div></div>
+	
+   	<div id="footer">
+	Kevin Smith - (510)277-2006 - <a href="mailto:ksjazzguitar@yahoo.com">ksjazzguitar@yahoo.com</a>
+	</div>
+
+
+</div>
+
+</body>
+
+</html>
